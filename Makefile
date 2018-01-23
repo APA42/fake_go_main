@@ -13,4 +13,4 @@ initialize_deps:
 build:
 	go build -a -installsuffix cgo -o fake_go_main .
 
-.PHONY: build install_dep_tool
+.PHONY: build install_dep_tool initialize_deps

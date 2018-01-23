@@ -1,3 +1,5 @@
+jenkins: production_restore_deps build
+
 all: build
 
 install_dep_tool:
@@ -20,4 +22,7 @@ update_deps:
 build:
 	go build -a -installsuffix cgo -o fake_go_main .
 
-.PHONY: build install_dep_tool initialize_deps
+production_restore_deps:
+	godep restore
+
+.PHONY: build install_dep_tool initialize_deps production_restore_deps

@@ -1,0 +1,11 @@
+{
+	"ImportPath": "github.com/APA42/fake_go_main",
+	"GoVersion": "go1.9",
+	"GodepVersion": "v70",
+	"Deps": [
+		{
+			"ImportPath": "github.com/APA42/fake_go_component_1",
+			"Rev": "0854e093d83b1e6a3db158933c214aac6d32a84a"
+		}
+	]
+}

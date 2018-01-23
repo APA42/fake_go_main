@@ -5,7 +5,7 @@
 	"Deps": [
 		{
 			"ImportPath": "github.com/APA42/fake_go_component_1",
-			"Rev": "0854e093d83b1e6a3db158933c214aac6d32a84a"
+			"Rev": "c01cc95aef56b93516ec25e9ba953ca503e20e41"
 		}
 	]
 }

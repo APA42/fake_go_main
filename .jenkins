@@ -1,6 +1,5 @@
 #!/bin/bash -e
 
-echo "Jenkins 0"
 export GOPATH=/tmp/go
 export PATH=$GOPATH/bin:$PATH
 
@@ -14,8 +13,4 @@ ln -sv `pwd` $GOPATH/src/github.com/APA42/fake_go_main
 
 cd $GOPATH/src/github.com/APA42/fake_go_main
 
-echo "Jenkins 1"
-
 make jenkins
-
-echo "Jenkins 2"

@@ -1,5 +1,6 @@
 #!/bin/bash -e
 
+echo "Jenkins 0"
 export GOPATH=/tmp/go
 export PATH=$GOPATH/bin:$PATH
 
@@ -7,9 +8,13 @@ export PATH=$GOPATH/bin:$PATH
 mkdir -pv $GOPATH/src/github.com/APA42/fake_go_main
 ln -sv `pwd` $GOPATH/src/github.com/APA42/fake_go_main
 
+
 # Another dependency example
 # git clone https://XXXXXXXXXXXXXXXXXXXXXXXXXXXXx@github.com/aleasoluciones/A_PROJECT.git $GOPATH/src/github.com/aleasoluciones/A_PROJECT
-
 cd $GOPATH/src/github.com/APA42/fake_go_main
 
+echo "Jenkins 1"
+
 make jenkins
+
+echo "Jenkins 2"

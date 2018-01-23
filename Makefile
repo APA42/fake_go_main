@@ -1,4 +1,4 @@
-jenkins: production_restore_deps build
+jenkins: install_dep_tool production_restore_deps build
 
 all: build
 

@@ -24,3 +24,4 @@ fake_main_component
 
 # Go Dependencies Management Tool (godep)
 Godeps/_workspace
+vendor
